@@ -9,5 +9,5 @@ T = eye(3);
 T(1:2, 1:2) = expm(wedge(s*theta));
 T(3, 1:2) = s*delta;
 
-TR = T * T_init;
+TR = 
 end
